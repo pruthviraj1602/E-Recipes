@@ -1,0 +1,61 @@
+.header {
+    background-image: url('/src/assets/e12a8ea15dc3cf40777ea8d7b01142d2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    position: relative; /* For positioning the overlay */
+    display: flex; /* Flexbox container */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+  
+  .header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent overlay */
+    backdrop-filter: blur(6px); /* Blur effect for the background */
+    z-index: 1; /* Ensures the overlay is behind the text */
+  }
+  
+  .header h1 {
+    color: aliceblue;
+    z-index: 2; /* Places the text above the overlay */
+    position: relative; /* Ensures proper stacking */
+    text-align: center;
+    font-size: 3rem; /* Optional: Adjust font size */
+  }
+  .button {
+    z-index: 2;
+    position: relative;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: transparent;
+    color: #fbfdff;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+}
+
+.button::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: #ffffff;
+    transition: width 0.3s ease, left 0.3s ease;
+}
+
+.button:hover::after {
+    width: 100%;
+    left: 0;
+    box-shadow: -3px 2px 19px 5px rgba(186,186,186,1);
+}

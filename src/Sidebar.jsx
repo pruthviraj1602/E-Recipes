@@ -13,7 +13,7 @@ const Sidebar = ({ tag, setTagName }) => {
               <a
                 onClick={() => setTagName(t)}
                 href="#"
-                className="nav-link fw-bolder"
+                className="nav-link fw-bolder text-dark"
                 aria-current="page"
               >
                 {t}
