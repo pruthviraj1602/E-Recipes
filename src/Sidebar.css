@@ -1,10 +1,10 @@
 
   .sidebar a {
-    color: #3B71CA;
+    color: #3B71CA !important;
     text-decoration: none;
   }
   .sidebar a:hover {
-    color: #fff;
+    color: #fff !important;
     background-color: #3B71CA;
   }
   .sidebar {

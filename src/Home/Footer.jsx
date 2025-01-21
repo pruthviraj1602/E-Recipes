@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div>
       {/* 54456b ,db6930*/}
-<div className="row">
+<div className="row mt-5" >
 
   <footer className="text-center text-lg-start" style={{backgroundColor:'#db6930'}}>
     <div className="container d-flex justify-content-center py-5">

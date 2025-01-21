@@ -4,6 +4,7 @@ import Header from './Header'
 import About from './About'
 import Footer from './Footer'
 import Card from './Card'
+import ContactUs from './ContactUs'
 
 const Home = () => {
   return (
@@ -18,7 +19,7 @@ const Home = () => {
       <Card   image="/src/assets/Chinese.jpg" tittle="Chianes Dishesh" para="All Chianes Fast Food and Also Starter And Various Dishesh" />
       </div>
       </div>
-      
+      <ContactUs />
       <Footer />
     </div>
   )

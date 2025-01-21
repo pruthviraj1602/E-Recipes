@@ -10,11 +10,7 @@
     color: white !important; /* Ensure text is readable on the blurred background */
   }
   
-  .navbar-brand:hover,
-  .nav-link:hover {
-    color: #f8f9fa !important; /* Light hover effect */
-  }
+ 
   .navbar-toggler:focus{
   box-shadow: none !important;
   }
- 

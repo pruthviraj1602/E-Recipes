@@ -4,9 +4,9 @@ import './Navbar.css'; // Add this file for styling
 const Navbar = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-dark fixed-top  blur-navbar">
+      <nav className="navbar container rounded-top-0 rounded-bottom-5 navbar-expand-lg navbar-dark fixed-top  blur-navbar">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">Navbar</a>
+          <a className="navbar-brand fw-bold fs-4 text-warning" >E-Recipe</a>
           <button
             className="navbar-toggler"
             type="button"
@@ -26,13 +26,13 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#about-Us">
                   About Us
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#" aria-disabled="true">
-                  Disabled
+                <a className="nav-link" href="#contact-Us" aria-disabled="true">
+                 Contact Us
                 </a>
               </li>
             </ul>

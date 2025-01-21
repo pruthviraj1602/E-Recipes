@@ -4,7 +4,9 @@ import './Category.css';
 
 const Category = ({ id, name, image, rating }) => {
   return (
+    
     <div className="col">
+     
       <div className="card shadow border-0 text-center" style={{ height: '55vh' }}>
         <img src={image} className="card-img-top" alt={name} />
         <div className="card-body">
